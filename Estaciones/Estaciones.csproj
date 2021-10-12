@@ -34,6 +34,9 @@
     <ErrorReport>prompt</ErrorReport>
     <WarningLevel>4</WarningLevel>
   </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationIcon>assets\papor.ico</ApplicationIcon>
+  </PropertyGroup>
   <ItemGroup>
     <Reference Include="System" />
     <Reference Include="System.Data" />
@@ -99,6 +102,12 @@
     <Resource Include="assets\otoño.jpg" />
     <Resource Include="assets\primavera.jpg" />
     <Resource Include="assets\verano.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\background.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <Resource Include="assets\papor.ico" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
